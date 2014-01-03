@@ -1,6 +1,6 @@
 # 1. Write an example program to demonstrate that package com.horstmann.impatient is not the same as package com; package horstmann; package impatient
 
-See "Chapter 7.1.scala"
+See src/Chapter7-Question1.scala
 
 # 2. Write a puzzler that baffles your Scala friends, using a package com that isn’t at the top level.
 
