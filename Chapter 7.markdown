@@ -1,10 +1,13 @@
 # 1. Write an example program to demonstrate that package com.horstmann.impatient is not the same as package com; package horstmann; package impatient
 
-See src/Chapter7-Question1.scala
+    See src/Chapter7-Question1.scala
 
 # 2. Write a puzzler that baffles your Scala friends, using a package com that isn’t at the top level.
 
+    See src/Chapter7-Question2b.scala
 
+    compile with:  scalac Chapter7-Question2a.scala Chapter7-Question2b.scala 
+    then run with: scala com.rapidascent.ch7.WTF
 
 # 3. Write a package random with functions nextInt(): Int, nextDouble(): Double, and setSeed(seed: Int): Unit. To generate random numbers, use the linear congruential generator next = previous × a + b mod 2n, where a = 1664525, b = 1013904223, and n = 32.
 
