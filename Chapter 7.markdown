@@ -11,6 +11,8 @@
 
 # 3. Write a package random with functions nextInt(): Int, nextDouble(): Double, and setSeed(seed: Int): Unit. To generate random numbers, use the linear congruential generator next = previous × a + b mod 2n, where a = 1664525, b = 1013904223, and n = 32.
 
+    See src/Chapter7-Question3.scala
+
 # 4. Why do you think the Scala language designers provided the package object syntax instead of simply letting you add functions and variables to a package?
 
 # 5. What is the meaning of private[com] def giveRaise(rate: Double)? Is it useful?
