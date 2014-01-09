@@ -15,9 +15,16 @@
 
 # 4. Why do you think the Scala language designers provided the package object syntax instead of simply letting you add functions and variables to a package?
 
+    * It forces all of the functions and variables to be declared together. Conceptually this is cleaner and is also avoids a lot of potential issues on collisions and such.
+    * It keeps the implementation model for this functionality consistent with the rest of the language.
+
 # 5. What is the meaning of private[com] def giveRaise(rate: Double)? Is it useful?
 
+    It makes the giveRaise function visible to any classes or objects in the com package. It is potentially useful. It allows some behaviour or data of a class or object to be exposed only to other classes and objects that are presumably closely related, as indicated by putting them in the referenced package.
+
 # 6. Write a program that copies all elements from a Java hash map into a Scala hash map. Use imports to rename both classes.
+
+    See src/Chapter7-Question1.scala
 
 # 7. In the preceding exercise, move all imports into the innermost scope possible.
 
