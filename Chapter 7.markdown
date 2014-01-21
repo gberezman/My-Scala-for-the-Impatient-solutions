@@ -24,9 +24,11 @@
 
 # 6. Write a program that copies all elements from a Java hash map into a Scala hash map. Use imports to rename both classes.
 
-    See src/Chapter7-Question1.scala
+    See src/Chapter7-Question6.scala
 
 # 7. In the preceding exercise, move all imports into the innermost scope possible.
+
+    See src/Chapter7-Question7.scala
 
 # 8. What is the effect of import java._ import javax._ Is this a good idea?
 
