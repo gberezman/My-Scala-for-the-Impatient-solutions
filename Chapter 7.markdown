@@ -32,6 +32,10 @@
 
 # 8. What is the effect of import java._ import javax._ Is this a good idea?
 
+    It imports all members of the java and javax packages into the currect scope.
+
+    This probably isn't a good idea just due to potential collisions. scala is implicitly imported, for example, so now you have java.util and scala.util both accessible via 'util.'
+
 # 9. Write a program that imports the java.lang.System class, reads the user name from the user.name system property, reads a password from the Console object, and prints a message to the standard error stream if the password is not "secret". Otherwise, print a greeting to the standard output stream. Do not use any other imports, and do not use any qualified names (with dots).
 
 # 10. Apart from StringBuilder, what other members of java.lang does the scala package override?
