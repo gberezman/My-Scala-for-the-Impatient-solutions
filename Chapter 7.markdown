@@ -38,4 +38,12 @@
 
 # 9. Write a program that imports the java.lang.System class, reads the user name from the user.name system property, reads a password from the Console object, and prints a message to the standard error stream if the password is not "secret". Otherwise, print a greeting to the standard output stream. Do not use any other imports, and do not use any qualified names (with dots).
 
+    See src/Chapter7-Question9.scala
+
+    I couldn't see how to output to stderr without using a dot. I triedusing the System.setOut() method, but this doesn't seem to override stdout for scala's print alias. OTOH, I can use Console.withOut (or setOut), but this requires an import or a dot!
+
 # 10. Apart from StringBuilder, what other members of java.lang does the scala package override?
+
+    Entries are found in the 'scala' package: Byte, Double, Float, Long, Short. There are also many type aliases.
+
+    This was just from a visual inspection and comparison. Might have missed a couple.
